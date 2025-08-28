@@ -3,7 +3,7 @@ from openpyxl import Workbook
 import pdfplumber
 import re
 
-directory = './PDFS/MetLife'
+directory = 'PDFS\MetLife\Cirurgias'
 files = os.listdir(directory)
 files_quantity = len(files)
 
